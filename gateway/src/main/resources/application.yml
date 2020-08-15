@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: apiRouting
+          uri: lb://apiservice
+          predicates:
+            - Path=/**
+          filters:
+            - RemoveRequestHeader= Except
+ribbon:
+  eureka:
+    enabled: false
+
+apiservice:
+  ribbon:
+    listOfServers: localhost:9090
