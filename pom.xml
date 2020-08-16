@@ -9,8 +9,7 @@
     <groupId>org.eduami.spring</groupId>
     <artifactId>reverse-proxy-spring-cloud-gatewat</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
-
+    <version>0.0.1-SNAPSHOT</version>
     <!-- sub modules -->
     <modules>
         <module>restapi</module>
