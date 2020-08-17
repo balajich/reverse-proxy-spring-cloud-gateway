@@ -7,7 +7,10 @@ In this tutorial we are going to a run reverse proxy that is going to server req
 # Source Code
     git clone https://github.com/balajich/reverse-proxy-spring-cloud-gateway.git
 # Architecture
+![architecture](architecture.png "architecture")
+![proxy](proxy.png "proxy")
 # Video
+[![Reverse proxy using Spring Cloud Gateway](https://img.youtube.com/vi/w-r-NO5Kqgk/0.jpg)](https://www.youtube.com/watch?v=w-r-NO5Kqgk)
 # Prerequisite
 - JDK 1.8 or above
 - Apache Maven 3.6.3 or above
