@@ -8,8 +8,6 @@ spring:
           uri: lb://apiservice
           predicates:
             - Path=/**
-          filters:
-            - RemoveRequestHeader= Except
 ribbon:
   eureka:
     enabled: false
